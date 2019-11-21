@@ -1,4 +1,4 @@
-# 1. Create a query that lists each movie, the film category it is classified in, and the number of times it has been rented out.
+1. Create a query that lists each movie, the film category it is classified in, and the number of times it has been rented out.
 
 SELECT t1.title film_title,c.name category_name,t1.rental_count rental_count
 FROM
@@ -14,7 +14,7 @@ JOIN category c
 ON fc.category_id=c.category_id
 GROUP BY 1,2,3 ORDER BY 2;
 	   
-# 2.Provide a table with the family-friendly film category, each of the quartiles, and the corresponding count of movies within each combination of film category for each corresponding rental duration category
+2.Provide a table with the family-friendly film category, each of the quartiles, and the corresponding count of movies within each combination of film category for each corresponding rental duration category
 
 WITH t1 AS(
 		SELECT f.title title,c.name AS name, f.rental_duration rental_duration,
