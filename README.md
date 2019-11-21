@@ -2,7 +2,7 @@ Movie_rental_analysis
 
 Sakila DVD rental database was analyzed in this project using SQL queries. Data wrangling and exploratory data analysis was performed on the given data set to understand the customer base.
 
-Question:
+Questions:
 
 1. Create a query that lists each movie, the film category it is classified in, and the number oftimes it has been rented out.
 2. Provide a table with the family-friendly film category, each of the quartiles, and the corresponding count of movies within each combination of film category for each corresponding rental duration category
